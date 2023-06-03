@@ -100,9 +100,9 @@ bool validateWord(node_t* root, const char* word)
 int main()
 {
     node_t* root = generateTree("Collins_Scrabble_Words_2019.txt");
-    char word[] = "iwanegrovic";
+    char word[] = "ivanedebelnigger";
     addWord(root, word);
-    char word2[] = "tumoridiot";
+    char word2[] = "wehateniggers";
     addWord(root, word2);
     writeToFile("output.txt", root);
     validateWord(root, "BELL");
