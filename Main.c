@@ -104,5 +104,6 @@ int main()
     addWord(root, word2);
     writeToFile("output.txt", root);
     validateWord(root, "NIGGER");
+    validateWord(root, "TUMOR");
     return 0;
 }
