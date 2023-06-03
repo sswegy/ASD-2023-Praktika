@@ -103,7 +103,7 @@ int main()
     char word2[] = "tumoridiot";
     addWord(root, word2);
     writeToFile("output.txt", root);
-    validateWord(root, "NIGGER");
-    validateWord(root, "TUMOR");
+    validateWord(root, "BELL");
+    validateWord(root, "IVANMATEV");
     return 0;
 }
