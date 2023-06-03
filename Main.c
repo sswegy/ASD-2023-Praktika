@@ -106,6 +106,6 @@ int main()
     addWord(root, word2);
     writeToFile("output.txt", root);
     validateWord(root, "BELL");
-    validateWord(root, "IVANMATEV");
+    validateWord(root, "IVANMATEVEDEBEL");
     return 0;
 }
