@@ -7,7 +7,6 @@
 #include <assert.h>
 
 #define LETTERS 26
-#define ARRAY_SIZE(a) sizeof(a) / sizeof(a[0])
 
 typedef struct node_t
 {
@@ -15,6 +14,7 @@ typedef struct node_t
     struct node_t* children[LETTERS];
 } node_t;
 
+//KRIS
 node_t* initNode(bool endOfWord)
 {
     node_t* node = (node_t*)calloc(1, sizeof * node);
@@ -43,6 +43,7 @@ node_t* generateTree(const char* filename)
     return root;
 }
 
+//VIKTOR
 void addWord(node_t* root, char* word)
 {
     int length = strlen(word);
@@ -82,6 +83,7 @@ void writeToFile(const char* filename, node_t* root)
     fclose(output);
 }
 
+//MLADEN
 bool validateWord(node_t* root, const char* word)
 {
     node_t* temp = root;
